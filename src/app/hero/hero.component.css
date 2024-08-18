@@ -1,0 +1,88 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+    color: #BF6159;
+    padding: 0px 50px;
+    height: 530px;
+    background: url('/AngularMarketHeroImg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
+    
+}
+
+
+.hero .heroInfo{
+  gap: 0px;
+  padding-left: 150px;
+}
+
+
+.hero .heroInfo h1{
+     font-size: 65px;
+     color: #BF6159;
+     width: 60%;
+     font-weight: 100;
+     text-transform: capitalize;    
+}
+
+.hero .heroInfo h6{
+    font-size: 20px;
+    color: gray;
+    width: 50%;
+    border: 1px solid white;
+
+
+}
+
+.hero .heroInfo p{
+    color: gray;
+    border: 3px solid #BF6159;
+    background-color: #BF6159;
+    width: 130px;
+    padding: 10px;
+    color: wheat;
+    border-radius: 40px;
+}
+
+
+@media (max-width: 500px){
+    .hero .heroInfo h1{
+        font-size: 35px;
+        color: #BF6159;
+        width: 60%;
+        font-weight: 100;
+        text-transform: capitalize;    
+   }
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
